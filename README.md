@@ -3,7 +3,7 @@ A lightweight, open-source text rendering module for ROBLOX that offers improved
 <br><br/>
 
 ## 🌐Explore more
-Like what you're seeing? Find more at https://discord.gg/R9hp2vbpP5.
+Like what you're seeing? Find more at [my community server](https://discord.gg/R9hp2vbpP5).
 
 ## 🚀How to use
 1. Download the `.rbxm` file.
@@ -22,7 +22,7 @@ local textFlex = require(path.to.TextFlex) -- "path.to" being a placeholder.
 -- Note that you obviously don't have to create the UI stuff inside of a script. It can be premade in the editor, which is optimal anyways.
 local screenGui = Instance.new("ScreenGui")
 local frame = Instance.new("Frame")
-frame.Size = UDim2.new(100, 70) -- this will be our bounding box size of the text.
+frame.Size = UDim2.new(0, 100, 0, 70) -- this will be our bounding box size of the text.
 frame.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 frame.Parent = screenGui
 screenGui.Parent = Players.LocalPlayer.PlayerGui
@@ -33,8 +33,8 @@ textFlex.Render( -- Magic.
 	frame, -- Frame - will be bounding box and parent of text.
 	28, -- Text size - default: 14.
 	1, -- Line height - default: 1.
-	Font.new( -- Font - default: Font.new("Source Sans Pro").
-		"Arcade",
+	Font.new( -- Font - Default: Source Sans Pro, regular, normal.
+		"rbxasset://fonts/families/PressStart2P.json", - Find fonts and their urls at https://create.roblox.com/docs/reference/engine/datatypes/Font.
 		Enum.FontWeight.Regular,
 		Enum.FontStyle.Normal
 	),
@@ -60,4 +60,4 @@ Please consider sharing some pictures of your awesome creations with this module
 ## 💬Feedback
 Your feedback is highly appreciated, as it helps improve the user experience for everyone. Feel free to reach out if you have suggestions or run into issues.
 
-**Contact:** Discord: *Im_IntoDev* or https://discord.gg/R9hp2vbpP5
+**Contact:** Discord: *Im_IntoDev* or [my community server](https://discord.gg/R9hp2vbpP5)
