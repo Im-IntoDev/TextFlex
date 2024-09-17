@@ -3,7 +3,7 @@ A lightweight, open-source text rendering module for ROBLOX that offers improved
 <br><br/>
 
 ## 🌐Explore more
-Like what you're seeing? Find more at [my community server](https://discord.gg/R9hp2vbpP5).
+Like what you're seeing? Find more in [my community server](https://discord.gg/R9hp2vbpP5).
 
 ## 🚀How to use
 1. Download the `.rbxm` file.
