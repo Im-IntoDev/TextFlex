@@ -17,7 +17,7 @@ local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local playerGui = player.PlayerGui
 
-local textFlex = require(path.to.TextFlex) -- "path.to" being a placeholder.
+local textFlex = require(path.to.TextFlex) -- "path.to" being a placeholder, so replace with actual path.
 
 -- Note that you obviously don't have to create the UI stuff inside of a script. It can be premade in the editor, which is optimal anyways.
 local screenGui = Instance.new("ScreenGui")
@@ -25,7 +25,7 @@ local frame = Instance.new("Frame")
 frame.Size = UDim2.new(0, 100, 0, 70) -- this will be our bounding box size of the text.
 frame.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 frame.Parent = screenGui
-screenGui.Parent = Players.LocalPlayer.PlayerGui
+screenGui.Parent = playerGui
 
 textFlex.Render( -- Magic.
 	-- Parameters with defaults are NOT required.
