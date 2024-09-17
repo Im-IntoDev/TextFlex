@@ -1,5 +1,5 @@
-# 🎨✨TextFlex✨🎨
-A lightweight, open-source text rendering module for ROBLOX that offers improved flexibility meaning precise control over each character, word and line. It's perfect for developers looking to create custom text effects and enjoy greater creative freedom.
+# <p align="center">🎨✨TextFlex✨🎨</p>
+<p align="center">A lightweight, open-source text rendering module for ROBLOX that offers improved flexibility meaning precise control over each character, word and line. It's perfect for developers looking to create custom text effects and enjoy greater creative freedom.</p>
 <br><br/>
 
 ## 🌐Explore more
