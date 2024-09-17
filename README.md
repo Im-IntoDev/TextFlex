@@ -34,7 +34,7 @@ textFlex.Render( -- Magic.
 	28, -- Text size - default: 14.
 	1, -- Line height - default: 1.
 	Font.new( -- Font - Default: Source Sans Pro, regular, normal.
-		"rbxasset://fonts/families/PressStart2P.json", - Find fonts and their urls at https://create.roblox.com/docs/reference/engine/datatypes/Font.
+		"rbxasset://fonts/families/PressStart2P.json", -- Find fonts and their urls at https://create.roblox.com/docs/reference/engine/datatypes/Font.
 		Enum.FontWeight.Regular,
 		Enum.FontStyle.Normal
 	),
