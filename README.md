@@ -1,15 +1,21 @@
-# TextFlex
+# 🎨✨TextFlex✨🎨
 A lightweight, open-source text rendering module for ROBLOX that offers improved flexibility meaning precise control over each character, word and line. It's perfect for developers looking to create custom text effects and enjoy greater creative freedom.
 <br><br/>
 
-## How to use
+## 🌐Explore more
+Like what you're seeing? Find more at https://discord.gg/R9hp2vbpP5.
+
+## 🚀How to use
 1. Download the `.rbxm` file.
 2. Drag and drop the file from your file explorer into Roblox Studio.
-3. Parent the module to ReplicatedFirst to ensure it appears during the loading phase. This is the recommended location for any loading screen code.
+3. Parent the module to any place you'd like, where you'll be able to require it.
 
-**Below is a simple example use of the module.**
+💡**Below is a simple example use of the module.**
 ```lua
 local Players = game:GetService("Players")
+
+local player = Players.LocalPlayer
+local playerGui = player.PlayerGui
 
 local textFlex = require(path.to.TextFlex) -- "path.to" being a placeholder.
 
@@ -19,7 +25,7 @@ local frame = Instance.new("Frame")
 frame.Size = UDim2.new(100, 70) -- this will be our bounding box size of the text.
 frame.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 frame.Parent = screenGui
-screenGui.Parent = Players.LocalPlayer
+screenGui.Parent = Players.LocalPlayer.PlayerGui
 
 textFlex.Render( -- Magic.
 	-- Parameters with defaults are NOT required.
@@ -48,10 +54,10 @@ for _, folder in ipairs(frame:GetChildren()) do
 end
 ```
 
-## Share your creations
+## 🖼️Share your creations
 Please consider sharing some pictures of your awesome creations with this module! It allows everyone to see the incredible possiblities with this.
 
-## Feedback
+## 💬Feedback
 Your feedback is highly appreciated, as it helps improve the user experience for everyone. Feel free to reach out if you have suggestions or run into issues.
 
-**Contact:** Discord: *Im_IntoDev*
+**Contact:** Discord: *Im_IntoDev* or https://discord.gg/R9hp2vbpP5
