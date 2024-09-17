@@ -22,17 +22,30 @@ frame.Parent = screenGui
 screenGui.Parent = Players.LocalPlayer
 
 textFlex.Render( -- Magic.
+	-- Parameters with defaults are NOT required.
 	"Hello there! This is a test.", -- Text.
-	frame, -- Frame.
-	28, -- Size - default: 14.
+	frame, -- Frame - will be bounding box and parent of text.
+	28, -- Text size - default: 14.
 	1, -- Line height - default: 1.
 	Font.new( -- Font - default: Font.new("Source Sans Pro").
 		"Arcade",
 		Enum.FontWeight.Regular,
 		Enum.FontStyle.Normal
 	),
-	Color3.fromRGB(255, 255, 255) -- Color - default: Color3.fromRGB(0, 0, 0).
+	Color3.fromRGB(255, 255, 255), -- Text color - default: Color3.fromRGB(0, 0, 0).
+	true, -- word sorting - default: true
+	false -- line sorting - default: false
 )
+
+-- What's awesome with TextFlex is that it sorts. This means you'll be able to access and individually modify every character, word and line. In this case we only turned on word sorting.
+for _, folder in ipairs(frame:GetChildren()) do
+	-- "folder" variable is the word folder containing all of its characters.
+	local word = ""
+	for _, label in ipairs(instance:GetChildren()) do
+		word ..= label.Text -- "label.Text" is the character.
+	end
+	print("Word number "..instance.Name..": "..word) -- "folder.Name" is the index of the word - this means you can access specific words by looking for the index: frame[tostring(index_here)].
+end
 ```
 
 ## Feedback
