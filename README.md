@@ -41,10 +41,10 @@ textFlex.Render( -- Magic.
 for _, folder in ipairs(frame:GetChildren()) do
 	-- "folder" variable is the word folder containing all of its characters.
 	local word = ""
-	for _, label in ipairs(instance:GetChildren()) do
+	for _, label in ipairs(folder:GetChildren()) do
 		word ..= label.Text -- "label.Text" is the character.
 	end
-	print("Word number "..instance.Name..": "..word) -- "folder.Name" is the index of the word - this means you can access specific words by looking for the index: frame[tostring(index_here)].
+	print("Word number "..folder.Name..": "..word) -- "folder.Name" is the index of the word - this means you can access specific words by looking for the index: frame[tostring(index_here)].
 end
 ```
 
