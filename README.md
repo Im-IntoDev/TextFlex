@@ -48,6 +48,9 @@ for _, folder in ipairs(frame:GetChildren()) do
 end
 ```
 
+## Share your creations
+Please consider sharing some pictures of your awesome creations with this module! It allows everyone to see the incredible possiblities with this.
+
 ## Feedback
 Your feedback is highly appreciated, as it helps improve the user experience for everyone. Feel free to reach out if you have suggestions or run into issues.
 
