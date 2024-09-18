@@ -22,7 +22,7 @@ local textFlex = require(path.to.TextFlex) -- "path.to" being a placeholder, so 
 -- Note that you obviously don't have to create the UI stuff inside of a script. It can be premade in the editor, which is optimal anyways.
 local screenGui = Instance.new("ScreenGui")
 local frame = Instance.new("Frame")
-frame.Size = UDim2.new(0, 100, 0, 70) -- this will be our bounding box size of the text.
+frame.Size = UDim2.new(0, 250, 0, 100) -- this will be our bounding box size of the text.
 frame.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 frame.Parent = screenGui
 screenGui.Parent = playerGui
