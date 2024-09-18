@@ -1,5 +1,10 @@
 # <p align="center">🎨✨TextFlex✨🎨</p>
-<p align="center">A lightweight, open-source text rendering module for ROBLOX that offers improved flexibility meaning precise control over each character, word and line. It's perfect for developers looking to create custom text effects and enjoy greater creative freedom.</p>
+<p align="center">A lightweight, open-source text rendering module for ROBLOX that offers improved flexibility, meaning precise control over each character, word and line. It's perfect for developers looking to create custom text effects and enjoy greater creative freedom.</p>
+<div align="center">
+
+[Devforum post]() | [Roblox model](https://create.roblox.com/store/asset/138658986432597/TextFlex)
+
+</div>
 <br><br/>
 
 ## 🌐Discover more
@@ -39,8 +44,8 @@ textFlex.Render( -- Magic.
 		Enum.FontStyle.Normal
 	),
 	Color3.fromRGB(255, 255, 255), -- Text color - default: Color3.fromRGB(0, 0, 0).
-	true, -- word sorting - default: true
-	false -- line sorting - default: false
+	true, -- word sorting - default: true.
+	false -- line sorting - default: false.
 )
 
 -- What's awesome with TextFlex is that it sorts. This means you'll be able to access and individually modify every character, word and line. In this case we only turned on word sorting.
