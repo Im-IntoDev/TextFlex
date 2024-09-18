@@ -1,4 +1,9 @@
-# <p align="center">🎨✨TextFlex✨🎨</p>
+<div align="center">
+
+![TextFlex Logo](https://github.com/user-attachments/assets/be6665b0-a308-460c-917f-b87ab1a7d1f9)
+
+</div>
+
 <p align="center">A lightweight, open-source text rendering module for ROBLOX that offers improved flexibility, meaning precise control over each character, word and line. It's perfect for developers looking to create custom text effects and enjoy greater creative freedom.</p>
 <div align="center">
 
@@ -7,18 +12,22 @@
 </div>
 <br><br/>
 
-# ⭐**Features**
-TextFlex efficiently renders text into your selected Frame instance, maintaining all of the features of your usual TextLabel, filling your frame with characters sorted according to your preference. Below is an example where both word and line sorting are enabled for demonstration.
+# ✨Features
+TextFlex efficiently renders text into your selected Frame instance, maintaining mostly all of the features of your usual TextLabel, filling your frame with characters sorted according to your preference. You are able to sort your text by words, lines, or both, giving you full control over how content is structured within the frame.
 
-# ⚡**Performance**
+Below is an example where both word and line sorting are enabled for demonstration.
+
+![image](https://github.com/user-attachments/assets/4450b178-8d92-40bd-a711-993d2adb44fd)
+
+# ⚡Performance
 TextFlex is lightweight, rendering the english alphabet (including commas and spaces) in approximately 9 milliseconds on average. However, keep in mind that multiple TextLabels are in use simultaneously, and continuous rendering could lead to performance lag.
 
-### **Not impressed by the performance?**
+### Not impressed by the performance?
 Well, the slower rendering time is mostly impacted by the `TextService:GetTextBoundsAsync()`, which sends a network request.
 *If you have any ideas, remember that this is an open-source project, meaning everyone is able to contribute!*
 
 ## 🚀Get started
-1. Download the `.rbxm` file.
+1. Download the `.rbxm` file, or import the model from the toolbox.
 2. Drag and drop the file from your file explorer into Roblox Studio.
 3. Parent the module to any place you'd like, where you'll be able to require it.
 
