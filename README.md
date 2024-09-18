@@ -2,10 +2,10 @@
 <p align="center">A lightweight, open-source text rendering module for ROBLOX that offers improved flexibility meaning precise control over each character, word and line. It's perfect for developers looking to create custom text effects and enjoy greater creative freedom.</p>
 <br><br/>
 
-## 🌐Explore more
+## 🌐Discover more
 Like what you're seeing? Find more in [my community server](https://discord.gg/R9hp2vbpP5).
 
-## 🚀How to use
+## 🚀Get started
 1. Download the `.rbxm` file.
 2. Drag and drop the file from your file explorer into Roblox Studio.
 3. Parent the module to any place you'd like, where you'll be able to require it.
