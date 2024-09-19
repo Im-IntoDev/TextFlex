@@ -7,7 +7,7 @@
 <p align="center">A lightweight, open-source text rendering module for ROBLOX that offers improved flexibility, meaning precise control over each character, word and line. It's perfect for developers looking to create custom text effects and enjoy greater creative freedom.</p>
 <div align="center">
 
-[Devforum post]() | [Roblox model](https://create.roblox.com/store/asset/138658986432597/TextFlex) | [Community](https://discord.gg/R9hp2vbpP5)
+[Devforum post](https://devforum.roblox.com/t/textflex-new-creative-opportunities-with-text-for-roblox-developers-open-source/3164881) | [Roblox model](https://create.roblox.com/store/asset/138658986432597/TextFlex) | [Community](https://discord.gg/R9hp2vbpP5)
 
 </div>
 <br><br/>
